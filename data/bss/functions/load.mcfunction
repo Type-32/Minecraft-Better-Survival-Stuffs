@@ -1,0 +1,1 @@
+tellraw @a "Debug: BSS Main Component Loaded"
