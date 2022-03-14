@@ -1,1 +1,1 @@
-function bss_items:func/generator_func/cobblestone/loop
+function bss_items:func/generator_func/loop
