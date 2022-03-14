@@ -1,5 +1,6 @@
 {
     "values":[
-        "bss:tick"
+        "bss:tick",
+        "bss_items:loop"
     ]
 }
