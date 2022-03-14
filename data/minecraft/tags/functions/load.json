@@ -1,5 +1,6 @@
 {
     "values":[
-        "bss:load"
+        "bss:load",
+        "bss_items:load"
     ]
 }

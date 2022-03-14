@@ -1,0 +1,1 @@
+scoreboard players add @a bss.used_as 0

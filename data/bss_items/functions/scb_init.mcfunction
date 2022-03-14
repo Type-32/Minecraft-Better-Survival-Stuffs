@@ -1,0 +1,1 @@
+scoreboard objectives add bss.used_as minecraft.used:minecraft.armor_stand {"translate":"bss.scoreboard.used_armor_stand"}

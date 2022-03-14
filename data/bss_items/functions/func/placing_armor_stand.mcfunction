@@ -1,0 +1,1 @@
+execute as @a[scores={bss.used_as=1..},tag=holdbss_generator] at @s run function bss_items:func/placing_generator
