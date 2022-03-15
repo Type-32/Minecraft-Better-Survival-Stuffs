@@ -1,13 +1,6 @@
-execute align y run tp @s ~ ~ ~
-data modify entity @s NoGravity set value 1b
-data modify entity @s Invisible set value 1b
-data modify entity @s Invulnerable set value 1b
-data modify entity @s DisabledSlots set value 2039583
-execute align y run setblock ~ ~ ~ dropper[facing=down]{BlockTag:{Tags:["cobblestone_generator_core"]}}
-execute align y run setblock ~ ~1 ~ hopper[facing=down]{BlockTag:{Tags:["cobblestone_generator_core"]}}
-execute align y run summon armor_stand ~ ~ ~ {Tags:["cobblestone_generator_AS","init"],NoGravity:1b,Invisible:1b,Invulnerable:1b,DisabledSlots:2039582,ArmorItems:[{id:"minecraft:cobblestone",Count:1b},{id:"minecraft:cobblestone",Count:1b},{id:"minecraft:cobblestone",Count:1b},{id:"minecraft:cobblestone",Count:1b}]}
+execute align y if block ~ ~ ~ #bss_items:half_blocks run function bss_items:func/generator_func/cobblestone/half_block_placing
+execute align y unless block ~ ~ ~ #bss_items:half_blocks run function bss_items:func/generator_func/cobblestone/normal_placing
 team join generators @e[type=armor_stand,limit=1,sort=nearest,distance=..1,tag=cobblestone_generator_AS]
 scoreboard players add @e[type=armor_stand,limit=1,sort=nearest,distance=..1,tag=cobblestone_generator_AS] bss.gen.cobblestone_tick 0
 item replace entity @s armor.head with cobblestone 1
 kill @s
-tellraw @a "Init Action Executed"
