@@ -4,6 +4,9 @@
         "minecraft:hopper",
         "minecraft:chest",
         "minecraft:trapped_chest",
-        "minecraft:ender_chest"
+        "minecraft:ender_chest",
+        "minecraft:sugar_cane",
+        "minecraft:weeping_vines",
+        "minecraft:twisting_vines"
     ]
 }
