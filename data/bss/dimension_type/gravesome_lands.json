@@ -12,7 +12,7 @@
   "fixed_time": 16000,
   "logical_height": 360,
   "effects": "minecraft:the_end",
-  "infiniburn": "#bss:infiniburn_gravesome",
+  "infiniburn": "bss:infiniburn_gravesome",
   "min_y": -64,
   "height": 480
 }
