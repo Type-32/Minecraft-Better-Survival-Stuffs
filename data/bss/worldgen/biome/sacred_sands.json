@@ -2,7 +2,7 @@
     "temperature": 0.95,
     "downfall": 0.1,
     "precipitation": "none",
-    "category": "nether",
+    "category": "plains",
     "creature_spawn_probability": 0.2,
     "effects": {
       "sky_color": 11579568,
