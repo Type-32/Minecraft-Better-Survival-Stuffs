@@ -72,7 +72,7 @@
               }
             },
             {
-              "biome": "minecraft:snowy_plains",
+              "biome": "bss:the_wasted",
               "parameters": {
                 "temperature": 0.5,
                 "humidity": 0.5,
