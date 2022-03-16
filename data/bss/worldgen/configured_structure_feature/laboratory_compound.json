@@ -1,4 +1,6 @@
 {
+    "biomes":"bss:the_wasted",
+    "spawn_overrides":{},
     "config": {
       "start_pool": "bss:compounds/laboratory_compound",
       "size": 7
