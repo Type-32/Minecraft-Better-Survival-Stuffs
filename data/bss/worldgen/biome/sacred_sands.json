@@ -1,0 +1,125 @@
+{
+    "temperature": 0.95,
+    "downfall": 0.1,
+    "precipitation": "none",
+    "category": "nether",
+    "creature_spawn_probability": 0.2,
+    "effects": {
+      "sky_color": 11579568,
+      "fog_color": 8882055,
+      "water_color": 11250603,
+      "water_fog_color": 9540001,
+      "grass_color": 13750737,
+      "foliage_color": 10066329,
+      "ambient_sound": "minecraft:block.roots.step",
+      "mood_sound": {
+        "sound": "minecraft:entity.zombie_villager.converted",
+        "tick_delay": 1000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions_sound": {
+        "sound": "minecraft:ambient.soul_sand_valley.loop",
+        "tick_chance": 0.05
+      },
+      "music": {
+        "sound": "minecraft:music.nether.soul_sand_valley",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      }
+    },
+    "starts":[
+        "minecraft:village",
+        "minecraft:ruined_portal",
+        "minecraft:nether_fossil"
+    ],
+    "spawners": {
+      "monster": [
+        {
+          "type": "minecraft:skeleton",
+          "weight": 20,
+          "minCount": 4,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:stray",
+          "weight": 80,
+          "minCount": 4,
+          "maxCount": 4
+        }
+      ],
+      "creature": [
+        {
+          "type": "minecraft:ravager",
+          "weight": 1,
+          "minCount": 1,
+          "maxCount": 2
+        }
+      ],
+      "ambient": [
+        {
+          "type": "minecraft:bat",
+          "weight": 10,
+          "minCount": 8,
+          "maxCount": 8
+        }
+      ],
+      "axolotls": [],
+      "underground_water_creature": [],
+      "water_ambient": []
+    },
+    "spawn_costs": {},
+    "carvers": {
+      "air": [
+        "minecraft:canyon"
+      ]
+    },
+    "features": [
+      [
+        "minecraft:fossil_upper",
+        "minecraft:fossil_lower"
+      ],
+      [
+        "minecraft:monster_room",
+        "minecraft:monster_room_deep"
+      ],
+      [
+        "minecraft:ice_spike",
+        "minecraft:ice_patch"
+      ],
+      [],
+      [
+        "minecraft:ore_lapis",
+        "minecraft:ore_lapis_buried",
+        "minecraft:ore_gravel",
+        "minecraft:ore_diamond",
+        "minecraft:ore_diamond_large",
+        "minecraft:ore_diamond_buried",
+        "minecraft:ore_quartz_nether",
+        "minecraft:ore_ancient_debris_large",
+        "minecraft:disk_gravel",
+        "minecraft:disk_clay",
+        "minecraft:underwater_magma"
+      ],
+      [],
+      [
+        "minecraft:spring_water",
+        "minecraft:spring_lava"
+      ],
+      [
+        "minecraft:glow_lichen",
+        "minecraft:trees_snowy",
+        "minecraft:flower_default",
+        "minecraft:patch_grass_badlands",
+        "minecraft:brown_mushroom_normal",
+        "minecraft:red_mushroom_normal",
+        "minecraft:patch_sugar_cane",
+        "minecraft:patch_pumpkin"
+      ],
+      [
+        "minecraft:freeze_top_layer"
+      ]
+    ]
+  }
+  

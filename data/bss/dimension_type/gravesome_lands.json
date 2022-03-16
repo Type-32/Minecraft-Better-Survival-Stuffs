@@ -13,6 +13,6 @@
   "logical_height": 360,
   "effects": "minecraft:the_end",
   "infiniburn": "bss:infiniburn_gravesome",
-  "min_y": -64,
+  "min_y": -32,
   "height": 480
 }
