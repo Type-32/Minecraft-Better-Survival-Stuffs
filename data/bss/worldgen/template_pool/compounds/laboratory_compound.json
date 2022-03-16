@@ -1,11 +1,11 @@
 {
-    "name": "laboratory_compound",
-    "fallback": "minecraft:",
+    "name": "bss:compounds/laboratory_compound",
+    "fallback": "minecraft:empty",
     "elements": [
       {
-        "weight": 1,
+        "weight": 100,
         "element": {
-          "element_type": "minecraft:single_pool_element",
+          "element_type": "minecraft:legacy_single_pool_element",
           "projection": "rigid",
           "location": "bss:laboratory_compound",
           "processors": "minecraft:empty"

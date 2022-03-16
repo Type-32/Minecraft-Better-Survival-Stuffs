@@ -3,5 +3,5 @@
       "start_pool": "bss:compounds/laboratory_compound",
       "size": 7
     },
-    "type": "minecraft:village"
+    "type": "minecraft:pillager_outpost"
 }

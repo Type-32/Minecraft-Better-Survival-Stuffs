@@ -1,0 +1,30 @@
+{
+    "type":"ore",
+    "config":{
+        "size":6,
+        "discard_chance_on_air_exposure":0,
+        "targets":[
+            {
+                "target":{
+                    "predicate_type":"tag_match",
+                    "tag":"bss:gravesome_land_ancient_debris_replaceables"
+                },
+                "state":{"Name":"minecraft:ancient_debris"}
+            },
+            {
+                "target":{
+                    "predicate_type":"tag_match",
+                    "tag":"bss:gravesome_land_ore_replaceables"
+                },
+                "state":{"Name":"minecraft:gilded_blackstone"}
+            },
+            {
+                "target":{
+                    "predicate_type":"tag_match",
+                    "tag":"bss:gravesome_land_ore_replaceables"
+                },
+                "state":{"Name":"minecraft:deepslate_diamond_ore"}
+            }
+        ]
+    }
+}

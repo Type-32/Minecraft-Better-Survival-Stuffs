@@ -25,10 +25,11 @@
       }
     },
     "starts":[
-        "minecraft:village_snowy",
+        "minecraft:village",
         "minecraft:jungle_pyramid",
         "minecraft:mineshaft",
-        "bss:laboratory_compound"
+        "bss:laboratory_compound",
+        "minecraft:pillager_outpost"
     ],
     "spawners": {
       "monster": [
@@ -79,7 +80,11 @@
         "minecraft:lake_lava_underground",
         "minecraft:lake_lava_surface"
       ],
-      [],
+      [
+        "bss:the_wasted_usable_trees",
+        "bss:the_wasted_sediment",
+        "bss:the_wasted_ancient_debris_feature"
+      ],
       [
         "minecraft:ice_spike",
         "minecraft:ice_patch"

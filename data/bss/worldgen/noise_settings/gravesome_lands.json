@@ -162,7 +162,7 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:smooth_basalt"
+                  "Name": "minecraft:stone"
                 }
               }
             }
