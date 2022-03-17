@@ -1,0 +1,1 @@
+execute as @a[tag=holdbss_spell] at @s run function bss_items:func/item_func/spells/use

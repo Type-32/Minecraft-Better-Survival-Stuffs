@@ -70,13 +70,9 @@
     },
     "features": [
       [],
-      [],
-      [],
-      [],
       [
         "bss:the_wasted_usable_trees",
-        "bss:the_wasted_sediment",
-        "minecraft:ice_patch"
+        "bss:the_wasted_sediment"
       ],
       [],
       [
