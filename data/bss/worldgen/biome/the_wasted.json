@@ -24,13 +24,6 @@
         "replace_current_music": false
       }
     },
-    "starts":[
-        "minecraft:village",
-        "minecraft:jungle_pyramid",
-        "minecraft:mineshaft",
-        "bss:laboratory_compound",
-        "minecraft:pillager_outpost"
-    ],
     "spawners": {
       "monster": [
         {
@@ -116,6 +109,13 @@
         "minecraft:patch_pumpkin"
       ],
       []
+    ],
+    "starts":[
+        "minecraft:village",
+        "minecraft:jungle_pyramid",
+        "minecraft:mineshaft",
+        "bss:laboratory_compound",
+        "minecraft:pillager_outpost"
     ]
   }
   
