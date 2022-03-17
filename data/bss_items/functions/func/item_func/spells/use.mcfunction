@@ -1,1 +1,0 @@
-execute as @a[tag=holdbss_whirlwind_spell] run function bss_items:func/item_func/spells/whirlwind/ability

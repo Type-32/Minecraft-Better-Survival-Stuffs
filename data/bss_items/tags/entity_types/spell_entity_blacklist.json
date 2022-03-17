@@ -6,6 +6,8 @@
         "minecraft:armor_stand",
         "minecraft:item",
         "minecraft:snowball",
-        "minecraft:player"
+        "minecraft:player",
+        "minecraft:arrow",
+        "minecraft:area_effect_cloud"
     ]
 }
