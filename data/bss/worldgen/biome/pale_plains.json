@@ -54,6 +54,10 @@
       "minecraft:canyon"
     ]
   },
+  "starts":[
+    "minecraft:village",
+    "minecraft:pillager_outpost"
+  ],
   "features": [
     [
       "bss:the_wasted_ancient_debris_feature",

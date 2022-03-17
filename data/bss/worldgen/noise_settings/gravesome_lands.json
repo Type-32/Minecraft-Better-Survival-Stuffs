@@ -411,7 +411,7 @@
   "structures": {
     "structures": {
       "minecraft:igloo": {
-        "spacing": 32,
+        "spacing": 16,
         "separation": 8,
         "salt": 14357618
       },
@@ -421,7 +421,7 @@
         "salt": 10387319
       },
       "minecraft:jungle_pyramid": {
-        "spacing": 32,
+        "spacing": 20,
         "separation": 8,
         "salt": 14357619
       },
@@ -486,9 +486,9 @@
         "salt": 14357621
       },
       "minecraft:bastion_remnant": {
-        "spacing": 27,
+        "spacing": 24,
         "separation": 4,
-        "salt": 30084232
+        "salt": 14357621
       },
       "minecraft:swamp_hut": {
         "spacing": 32,

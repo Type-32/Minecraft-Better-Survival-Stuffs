@@ -1,0 +1,50 @@
+{
+    "type": "bss:gravesome_lands",
+    "generator": {
+      "seed": 0,
+      "type": "minecraft:noise",
+      "settings": "bss:gravesome_lands",
+      "biome_source": {
+        "type": "minecraft:multi_noise",
+        "biomes": [
+          {
+            "biome": "minecraft:ice_spikes",
+            "parameters": {
+              "temperature": 0.6,
+              "humidity": 0.5,
+              "continentalness": 0.3,
+              "erosion": 1,
+              "weirdness": 0,
+              "depth": 0,
+              "offset": 0
+            }
+          },
+          {
+            "biome": "bss:the_wasted",
+            "parameters": {
+              "temperature": 0.5,
+              "humidity": 0.5,
+              "continentalness": 0,
+              "erosion": 1,
+              "weirdness": 0,
+              "depth": 0,
+              "offset": 0
+            }
+          },
+          {
+            "biome": "bss:sacred_sands",
+            "parameters": {
+              "temperature": 0.47,
+              "humidity": 0.5,
+              "continentalness": 0.1,
+              "erosion": 1,
+              "weirdness": 0,
+              "depth": 0,
+              "offset": 0
+            }
+          }
+        ]
+      }
+    }
+  }
+  

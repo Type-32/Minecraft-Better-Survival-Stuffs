@@ -1,8 +1,8 @@
 {
     "temperature": 0.4,
     "downfall": 0.5,
-    "precipitation": "snow",
-    "category": "plains",
+    "precipitation": "none",
+    "category": "nether",
     "creature_spawn_probability": 0.3,
     "effects": {
       "sky_color": 6381921,
@@ -27,12 +27,6 @@
     "spawners": {
       "monster": [
         {
-          "type": "minecraft:zombie",
-          "weight": 95,
-          "minCount": 4,
-          "maxCount": 4
-        },
-        {
           "type": "minecraft:illusioner",
           "weight": 10,
           "minCount": 1,
@@ -45,9 +39,15 @@
           "maxCount": 4
         },
         {
-          "type": "minecraft:stray",
-          "weight": 80,
-          "minCount": 4,
+          "type": "minecraft:husk",
+          "weight": 90,
+          "minCount": 2,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:wither_skeleton",
+          "weight": 70,
+          "minCount": 2,
           "maxCount": 4
         }
       ],
@@ -69,17 +69,13 @@
       ]
     },
     "features": [
-      [
-        "minecraft:lake_lava_underground",
-        "minecraft:lake_lava_surface"
-      ],
+      [],
+      [],
+      [],
+      [],
       [
         "bss:the_wasted_usable_trees",
         "bss:the_wasted_sediment",
-        "bss:the_wasted_ancient_debris_feature"
-      ],
-      [
-        "minecraft:ice_spike",
         "minecraft:ice_patch"
       ],
       [],
@@ -114,7 +110,6 @@
         "minecraft:village",
         "minecraft:jungle_pyramid",
         "minecraft:mineshaft",
-        "bss:laboratory_compound",
         "minecraft:pillager_outpost"
     ]
   }
