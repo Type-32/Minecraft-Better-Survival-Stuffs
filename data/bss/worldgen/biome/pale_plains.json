@@ -54,13 +54,9 @@
       "minecraft:canyon"
     ]
   },
-  "starts":[
-    "minecraft:village",
-    "minecraft:pillager_outpost"
-  ],
   "features": [
     [
-      "bss:the_wasted_ancient_debris_feature",
+      "bss:the_wasted_basalt_trees",
       "minecraft:glowstone",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_large",

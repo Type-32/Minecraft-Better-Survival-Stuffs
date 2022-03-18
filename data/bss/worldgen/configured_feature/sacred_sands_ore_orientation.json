@@ -1,29 +1,35 @@
 {
-    "type":"ore",
-    "config":{
-        "size":2,
-        "discard_chance_on_air_exposure":0,
-        "targets":[
+    "type": "ore",
+    "config": {
+        "size": 2,
+        "discard_chance_on_air_exposure": 0,
+        "targets": [
             {
-                "target":{
-                    "predicate_type":"tag_match",
-                    "tag":"bss:gravesome_land_ore_replaceables"
+                "target": {
+                    "predicate_type": "tag_match",
+                    "tag": "bss:gravesome_land_ore_replaceables"
                 },
-                "state":{"Name":"minecraft:nether_quartz_ore"}
+                "state": {
+                    "Name": "minecraft:nether_quartz_ore"
+                }
             },
             {
-                "target":{
-                    "predicate_type":"tag_match",
-                    "tag":"bss:gravesome_land_ore_replaceables"
+                "target": {
+                    "predicate_type": "tag_match",
+                    "tag": "bss:gravesome_land_ore_replaceables"
                 },
-                "state":{"Name":"minecraft:gilded_blackstone"}
+                "state": {
+                    "Name": "minecraft:gilded_blackstone"
+                }
             },
             {
-                "target":{
-                    "predicate_type":"tag_match",
-                    "tag":"bss:gravesome_land_ore_replaceables"
+                "target": {
+                    "predicate_type": "tag_match",
+                    "tag": "bss:gravesome_land_ore_replaceables"
                 },
-                "state":{"Name":"minecraft:bone_block"}
+                "state": {
+                    "Name": "minecraft:bone_block"
+                }
             }
         ]
     }

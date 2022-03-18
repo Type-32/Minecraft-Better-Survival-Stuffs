@@ -1,8 +1,6 @@
 {
-  "sea_level": 77,
+  "sea_level": 80,
   "disable_mob_generation": false,
-  "noise_caves_enabled": false,
-  "noodle_caves_enabled": false,
   "aquifers_enabled": false,
   "ore_veins_enabled": false,
   "legacy_random_source": false,
@@ -280,8 +278,7 @@
                 "type": "minecraft:stone_depth",
                 "offset": 0,
                 "surface_type": "floor",
-                "add_surface_depth": true,
-                "add_surface_secondary_depth": false
+                "add_surface_depth": true
               },
               "then_run": {
                 "type": "minecraft:block",
@@ -297,8 +294,7 @@
                 "type": "minecraft:stone_depth",
                 "offset": 1,
                 "surface_type": "floor",
-                "add_surface_depth": true,
-                "add_surface_secondary_depth": false
+                "add_surface_depth": true
               },
               "then_run": {
                 "type": "minecraft:block",
@@ -328,8 +324,7 @@
                 "type": "minecraft:stone_depth",
                 "offset": 0,
                 "surface_type": "floor",
-                "add_surface_depth": true,
-                "add_surface_secondary_depth": false
+                "add_surface_depth": true
               },
               "then_run": {
                 "type": "minecraft:block",
@@ -345,8 +340,7 @@
                 "type": "minecraft:stone_depth",
                 "offset": 2,
                 "surface_type": "floor",
-                "add_surface_depth": true,
-                "add_surface_secondary_depth": false
+                "add_surface_depth": true
               },
               "then_run": {
                 "type": "minecraft:block",
@@ -376,8 +370,7 @@
                 "type": "minecraft:stone_depth",
                 "offset": 0,
                 "surface_type": "floor",
-                "add_surface_depth": false,
-                "add_surface_secondary_depth": false
+                "add_surface_depth": false
               },
               "then_run": {
                 "type": "minecraft:block",
@@ -393,8 +386,7 @@
                 "type": "minecraft:stone_depth",
                 "offset": 1,
                 "surface_type": "floor",
-                "add_surface_depth": true,
-                "add_surface_secondary_depth": false
+                "add_surface_depth": true
               },
               "then_run": {
                 "type": "minecraft:block",
@@ -408,98 +400,67 @@
       }
     ]
   },
-  "structures": {
-    "structures": {
-      "minecraft:igloo": {
-        "spacing": 16,
-        "separation": 8,
-        "salt": 14357618
+  "noise_router": {
+    "final_density": {
+      "argument": {
+        "argument1": 0.64,
+        "argument2": {
+          "argument": {
+            "argument": {
+              "argument": "minecraft:overworld/sloped_cheese",
+              "type": "minecraft:slide"
+            },
+            "type": "minecraft:blend_density"
+          },
+          "type": "minecraft:interpolated"
+        },
+        "type": "minecraft:mul"
       },
-      "minecraft:mansion": {
-        "spacing": 80,
-        "separation": 20,
-        "salt": 10387319
+      "type": "minecraft:squeeze"
+    },
+    "vein_toggle": 0,
+    "vein_ridged": 0,
+    "vein_gap": 0,
+    "erosion": "minecraft:overworld/erosion",
+    "depth": "minecraft:overworld/depth",
+    "ridges": "minecraft:overworld/ridges",
+    "initial_density_without_jaggedness": {
+      "argument1": 4,
+      "argument2": {
+        "argument": {
+          "argument1": "minecraft:overworld/depth",
+          "argument2": {
+            "argument": "minecraft:overworld/factor",
+            "type": "minecraft:cache_2d"
+          },
+          "type": "minecraft:mul"
+        },
+        "type": "minecraft:quarter_negative"
       },
-      "minecraft:jungle_pyramid": {
-        "spacing": 20,
-        "separation": 8,
-        "salt": 14357619
-      },
-      "minecraft:stronghold": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 0
-      },
-      "minecraft:shipwreck": {
-        "spacing": 24,
-        "separation": 4,
-        "salt": 165745295
-      },
-      "minecraft:mineshaft": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 0
-      },
-      "minecraft:desert_pyramid": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 14357617
-      },
-      "minecraft:ruined_portal": {
-        "spacing": 40,
-        "separation": 15,
-        "salt": 34222645
-      },
-      "minecraft:fortress": {
-        "spacing": 27,
-        "separation": 4,
-        "salt": 30084232
-      },
-      "minecraft:pillager_outpost": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 165745296
-      },
-      "minecraft:village": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 10387312
-      },
-      "minecraft:nether_fossil": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 10387312
-      },
-      "minecraft:endcity": {
-        "spacing": 20,
-        "separation": 11,
-        "salt": 10387313
-      },
-      "minecraft:buried_treasure": {
-        "spacing": 1,
-        "separation": 0,
-        "salt": 0
-      },
-      "minecraft:ocean_ruin": {
-        "spacing": 20,
-        "separation": 8,
-        "salt": 14357621
-      },
-      "minecraft:bastion_remnant": {
-        "spacing": 24,
-        "separation": 4,
-        "salt": 14357621
-      },
-      "minecraft:swamp_hut": {
-        "spacing": 32,
-        "separation": 8,
-        "salt": 14357620
-      },
-      "minecraft:monument": {
-        "spacing": 32,
-        "separation": 5,
-        "salt": 10387313
-      }
-    }
+      "type": "minecraft:mul"
+    },
+    "lava": 0,
+    "temperature": {
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "noise": "minecraft:temperature",
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z",
+      "type": "minecraft:shifted_noise"
+    },
+    "vegetation": {
+      "xz_scale": 0.25,
+      "y_scale": 0,
+      "noise": "minecraft:vegetation",
+      "shift_x": "minecraft:shift_x",
+      "shift_y": 0,
+      "shift_z": "minecraft:shift_z",
+      "type": "minecraft:shifted_noise"
+    },
+    "continents": "minecraft:overworld/continents",
+    "barrier": 0,
+    "fluid_level_floodedness": 0,
+    "fluid_level_spread": 0
   }
 }

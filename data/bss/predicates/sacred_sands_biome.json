@@ -1,8 +1,7 @@
 {
-    "condition": "minecraft:location_check",
-    "predicate": {
-      "biome": "bss:sacred_sands",
-      "dimension": "bss:gravesome_lands"
-    }
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "biome": "bss:sacred_sands",
+    "dimension": "bss:gravesome_lands"
   }
-  
+}

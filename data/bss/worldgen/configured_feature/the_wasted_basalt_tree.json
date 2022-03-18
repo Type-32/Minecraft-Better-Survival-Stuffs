@@ -1,21 +1,21 @@
 {
-    "type":"huge_fungus",
-    "config":{
-        "hat_state":{
-            "Name":"minecraft:gilded_blackstone"
+    "type": "huge_fungus",
+    "config": {
+        "hat_state": {
+            "Name": "minecraft:gilded_blackstone"
         },
-        "decor_state":{
-            "Name":"minecraft:sea_lantern"
+        "decor_state": {
+            "Name": "minecraft:sea_lantern"
         },
-        "stem_state":{
-            "Name":"minecraft:polished_basalt",
-            "Properties":{
-                "axis":"y"
+        "stem_state": {
+            "Name": "minecraft:polished_basalt",
+            "Properties": {
+                "axis": "y"
             }
         },
-        "valid_base_block":{
-            "Name":"minecraft:black_concrete_powder"
+        "valid_base_block": {
+            "Name": "minecraft:black_concrete_powder"
         },
-        "planted":false
+        "planted": false
     }
 }
