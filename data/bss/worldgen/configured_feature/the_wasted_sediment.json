@@ -4,7 +4,7 @@
         "contents": {
             "Name": "minecraft:lava",
             "Properties": {
-                "level": 0
+                "level": "0"
             }
         },
         "rim": {

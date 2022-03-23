@@ -57,11 +57,16 @@
   "features": [
     [],
     [
-      "bss:the_wasted_basalt_trees",
+      "bss:the_wasted_basalt_trees"
+    ],
+    [],
+    [
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
       "minecraft:glowstone",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond",
       "minecraft:ore_diamond_large",
       "minecraft:ore_diamond_buried",
       "minecraft:disk_gravel",
@@ -69,19 +74,15 @@
     ],
     [],
     [],
-    [],
-    [],
-    [],
-    [],
-    [],
-    [],
     [
+      "minecraft:glow_lichen",
       "minecraft:trees_snowy",
       "minecraft:flower_default",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
-      "minecraft:patch_pumpkin"
-    ]
+      "minecraft:patch_sugar_cane"
+    ],
+    []
+
   ]
 }
