@@ -20,18 +20,6 @@
           }
         },
         {
-          "biome": "bss:pale_plains",
-          "parameters": {
-            "temperature": 0.5,
-            "humidity": 0.5,
-            "continentalness": 0,
-            "erosion": 1,
-            "weirdness": 0,
-            "depth": 0,
-            "offset": 0
-          }
-        },
-        {
           "biome": "bss:the_wasted",
           "parameters": {
             "temperature": 0.5,
