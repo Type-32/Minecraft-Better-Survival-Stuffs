@@ -9,3 +9,5 @@ scoreboard objectives add bss.mana_tick dummy
 scoreboard objectives add bss.mana dummy
 scoreboard objectives add bss.max_mana dummy
 scoreboard objectives add bss.mana_usage dummy
+scoreboard objectives add bss.used_gapple minecraft.used:minecraft:golden_apple
+scoreboard objectives add bss.used_enchgapple minecraft.used:minecraft:enchanted_golden_apple
