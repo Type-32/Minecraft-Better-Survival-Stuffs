@@ -1,7 +1,7 @@
 {
     "type": "minecraft:bastion_remnant",
     "biomes": "bss:sacred_sands",
-    "adapt_noise": true,
+    "adapt_noise": false,
     "spawn_overrides": {},
     "config": {
       "start_pool": "bss:compounds/laboratory_compound",
