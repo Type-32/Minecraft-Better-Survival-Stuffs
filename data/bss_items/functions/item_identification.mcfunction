@@ -29,8 +29,8 @@ tag @a[nbt=!{SelectedItem:{tag:{BSSID:{id:"bss:advanced_compass"}}}}] remove hol
 
 #Generators
 tag @a[nbt=!{SelectedItem:{tag:{BSSID:{id:"bss:cobblestone_generator"}}}}] remove holdbss_cobblestone_generator
-tag @a[nbt={SelectedItem:{tag:{BSSID:{id:"bss:iron_generator"}}}}] remove holdbss_iron_generator
-tag @a[nbt={SelectedItem:{tag:{BSSID:{id:"bss:gold_generator"}}}}] remove holdbss_gold_generator
+tag @a[nbt=!{SelectedItem:{tag:{BSSID:{id:"bss:iron_generator"}}}}] remove holdbss_iron_generator
+tag @a[nbt=!{SelectedItem:{tag:{BSSID:{id:"bss:gold_generator"}}}}] remove holdbss_gold_generator
 
 #Spells
 tag @a[nbt=!{SelectedItem:{tag:{BSSID:{id:"bss:whirlwind_spell"}}}}] remove holdbss_whirlwind_spell
