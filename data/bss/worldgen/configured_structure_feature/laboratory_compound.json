@@ -1,5 +1,5 @@
 {
-    "type": "minecraft:bastion_remnant",
+    "type": "minecraft:village",
     "biomes": "bss:sacred_sands",
     "adapt_noise": false,
     "spawn_overrides": {},
